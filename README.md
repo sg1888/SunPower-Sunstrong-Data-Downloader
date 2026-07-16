@@ -9,9 +9,9 @@ Why do this?  You can use the CSV to import the data into the database of your c
 
 ## What you can download
 
-| Command  | Scope        | Granularity                    | Identity | History* |
-|----------|--------------|--------------------------------|----------|----------|
-| `power`  | Whole system | **hourly** (also 5-min/15-min) | site     | back to system start |
+| Command  | Scope        | Granularity                          | Identity | History* |
+|----------|--------------|--------------------------------------|----------|----------|
+| `power`  | Whole system | **hourly** (5/15 mins don't work)    | site     | back to system start |
 | `energy` | Whole system | day / month / year totals      | site     | back to system start |
 | `panels` | Per panel    | **hourly** power **and** energy | **microinverter serial** | ~2 years |
 
