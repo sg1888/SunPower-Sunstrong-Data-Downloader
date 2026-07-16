@@ -1,0 +1,10 @@
+tools/
+apk/*.apk
+decompiled/
+capture/*.har
+capture/*.json
+.venv/
+__pycache__/
+*.log
+.env
+secrets*
