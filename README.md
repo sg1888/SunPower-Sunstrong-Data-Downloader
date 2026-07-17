@@ -1,11 +1,11 @@
-# SunStrong / mySunPower data downloader
+# SunStrong / mySunPower cloud data downloader (not local!)
 
-This script lets you download your full solar history (whaterver is left, anyway)
-from **SunStrong Connect / mySunPower** straight to a CSV file --
-**no emulator, no rooting, no browser**. You log in with the same username/password you use in
-the app, and the tool pulls data from the same private API the app uses.
-
-Why do this?  You can use the CSV to import the data into the database of your choice (HomeAssistant,InfluxDB, etc). 
+This script lets you download your full solar history (whatever is left, anyway)
+from **SunStrong** cloud servers straight to a CSV file --
+**no emulator, no rooting, no browser**.  You log in with the same username/password you use in
+the app, and the tool pulls data from the same private API the app uses.  This will **NOT** connect
+to your local PVS5/PVS6, and is firmware agnostic.  It is purely to download your historical data 
+from SunStrong's servers.  It was last tested on 7/16/2026. 
 
 ## What you can download
 
